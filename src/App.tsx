@@ -6,7 +6,6 @@ import Home from './pages/Home';
 import PinsCreator from './pages/PinsCreator';
 import { AuthContext } from './context/context'
 import PinPage from './pages/PInPage';
-import { pinsApi } from './store/data/pinsApi';
 import UserPage from './pages/UserPage';
 import ProfileEdit from './pages/ProfileEdit';
 import SubscriptionsPage from './pages/SubscriptionsPage';
@@ -17,7 +16,7 @@ function App() {
 		<div className='App'>
 			<AuthContext.Provider value={{ search, setSearch }}>
 				<Navbar />
-				<div className='px-10 mainContainer'>
+				<div className='px-10 mainContainer mb-10'>
 					<Routes>
 						<Route path='/pins-creator' element={<PinsCreator />} />
 						<Route path='/profile' element={<Profile />} />

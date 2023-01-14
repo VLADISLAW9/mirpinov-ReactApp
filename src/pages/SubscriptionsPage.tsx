@@ -1,9 +1,7 @@
-import { Avatar } from '@mui/material'
+
 import React from 'react'
 import { FaRegSadTear } from 'react-icons/fa'
-import { Link } from 'react-router-dom'
 import UserItem from '../components/UserItem'
-import { useActions } from '../hooks/actions'
 import { pinsApi } from '../store/data/pinsApi'
 
 const SubscriptionsPage = () => {

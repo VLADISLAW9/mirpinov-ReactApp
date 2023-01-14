@@ -1,10 +1,9 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext } from 'react'
 import {TbWorldLatitude} from 'react-icons/tb'
 import { Link} from 'react-router-dom'
 import {AiOutlinePlusCircle} from 'react-icons/ai'
 import { Avatar } from '@mui/material'
-import { pinsApi, useSearchPinsQuery } from '../store/data/pinsApi'
-import { useDebounce } from '../hooks/debounce'
+import { pinsApi } from '../store/data/pinsApi'
 import { AuthContext } from '../context/context'
  
 const Navbar = () => {

@@ -1,4 +1,4 @@
-import { configureStore, combineReducers } from '@reduxjs/toolkit'
+import { configureStore } from '@reduxjs/toolkit'
 import { setupListeners } from '@reduxjs/toolkit/dist/query';
 import { pinIdReducer } from './data/getPinId.slice';
 import { userIdReducer } from './data/getUserId.slice';

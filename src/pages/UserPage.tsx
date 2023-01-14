@@ -1,5 +1,5 @@
 import { Avatar, CardMedia } from '@mui/material'
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { useAppSelector } from '../hooks/redux'
 import { pinsApi } from '../store/data/pinsApi'
 
