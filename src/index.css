@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.pins {
+	margin-top: 40px;
+	column-count: 7;
+	column-gap: 20px;
+}
+
+.pins__item {
+	margin: 0;
+	display: grid;
+	grid-template-rows: 1fr auto;
+	margin-bottom: 40px;
+	break-inside: avoid;
+}
+
+.pins__item > CardMedia {
+	grid-row: 1 / -1;
+	grid-column: 1;
+}
+
+@media (max-width: 1650px) {
+	.pin__img{
+		max-height: 600px;
+		max-width: 400px;
+	}
+}
+
+@media (max-width: 1450px) {
+	.pins {
+		margin-top: 40px;
+		column-count: 5;
+		column-gap: 20px;
+	}
+	.pin__content{
+		margin-left: 3rem;
+	}
+}
+
+@media (max-width: 1050px) {
+	.pins {
+		margin-top: 40px;
+		column-count: 4;
+		column-gap: 20px;
+	}
+}
+
+@media (max-width: 886px) {
+	.pins {
+		margin-top: 40px;
+		column-count: 3;
+		column-gap: 20px;
+	}
+	.pin__img{
+		max-height: 500px;
+	}
+	.pin__content{
+		margin-left: 1rem;
+	}
+}
+
+@media (max-width: 650px) {
+	.pins {
+		margin-top: 40px;
+		column-count: 2;
+		column-gap: 20px;
+	}
+	.mainContainer {
+		padding-left: 1.5rem /* 40px */;
+		padding-right: 1.5rem /* 40px */;
+	}
+	.mainContainer{
+		padding-left: 0.5rem/* 24px */;
+  	padding-right: 0.5rem/* 24px */;
+	}
+}
+
+@media (max-width: 450px) {
+	.pins {
+		margin-top: 40px;
+		column-count: 2;
+		column-gap: 7px;
+	}
+	.mainContainer {
+		padding-left: 0.5rem /* 40px */;
+		padding-right: 0.5rem /* 40px */;
+	}
+	.search{
+		width: 60%;
+	}
+}
+
