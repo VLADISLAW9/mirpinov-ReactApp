@@ -1,4 +1,5 @@
 # MIRPINOV
+![](/preview.jpg)
 Front-end web-application with the ability to view, save and add pins
 
 ## Getting start
