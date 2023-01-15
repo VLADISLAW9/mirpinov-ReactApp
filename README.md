@@ -1,12 +1,24 @@
-# Start  JSON Server
+# MIRPINOV
+Front-end web-application with the ability to view, save and add pins
 
-# Install JSON Server
-  npm install -g json-server
+## Getting start
+ Install JSON Server
+```
+npm install -g json-server
+```
+Start JSON Server
+```
+json-server --watch db.json --port 5000
+```
+Start web-application
+```
+npm i
+```
 
-# Start JSON Server
- json-server --watch db.json --port 5000
-
---------------------------------------------------
-
- npm install
- npm start
+```
+npm start
+```
+## Stack
+- React
+- TypeScript
+- Redux Toolkit
