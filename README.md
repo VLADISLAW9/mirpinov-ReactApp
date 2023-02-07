@@ -5,8 +5,9 @@ Front-end web-application with the ability to view, save and add pins
 ## Getting start
 
 ### Start JSON server
+-Open Visual Studio witch project
 
--Open CDM(Ctrl+Shift+C)
+-Open CMD(Ctrl+Shift+C)
 
 -Install JSON server: ``` npm install -g json-server ```
 
